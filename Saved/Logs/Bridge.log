@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿Log file open, 04/18/15 15:22:42
+=======
+﻿Log file open, 04/17/15 19:03:38
+>>>>>>> origin/master
 LogInit:Display: Running engine for game: Bridge
 LogInit: Version: 4.7.5-2503383+++depot+UE4-Releases+4.7
 LogInit: API Version: 2455222
@@ -6,6 +10,7 @@ LogInit: Compiled (64-bit): Apr  6 2015 23:21:51
 LogInit: Compiled with Visual C++: 18.00.21005.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++depot+UE4-Releases+4.7
+<<<<<<< HEAD
 LogInit: Command line:  
 LogInit: Base directory: J:/Program Files/Unreal/Epic Games/4.7/Engine/Binaries/Win64/
 LogInit: Rocket: 1
@@ -347,3 +352,889 @@ Resource: (J:/Program Files/Unreal/Epic Games/4.7/Engine/Content/Localization/Ed
 [2015.04.18-19.27.23:487][  4]LogModuleManager: Shutting down and abandoning module PakFile (1)
 [2015.04.18-19.27.23:504][  4]LogExit: Exiting.
 [2015.04.18-19.27.23:508][  4]Log file closed, 04/18/15 15:27:23
+=======
+LogInit: Command line: 
+LogInit: Base directory: J:/Program Files/Unreal/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.04.17-23.03.38:720][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.04.17-23.03.38:773][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.17-23.03.38:928][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.17-23.03.38:939][  0]LogInit: Object subsystem initialized
+[2015.04.17-23.03.38:941][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.04.17-23.03.38:941][  0]LogConsoleResponse:Warning:   Found in ini file 'J:/Unreal Projects/Bridge/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.17-23.03.38:941][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.04.17-23.03.38:941][  0]LogConsoleResponse:Warning:   Found in ini file 'J:/Unreal Projects/Bridge/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.17-23.03.38:941][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.04.17-23.03.38:941][  0]LogConsoleResponse:Warning:   Found in ini file 'J:/Unreal Projects/Bridge/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.17-23.03.38:941][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.17-23.03.38:941][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.17-23.03.39:020][  0]LogInit: Computer: RUSTY-PC
+[2015.04.17-23.03.39:020][  0]LogInit: User: Rusty
+[2015.04.17-23.03.39:020][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.04.17-23.03.39:020][  0]LogInit: High frequency timer resolution =3.919648 MHz
+[2015.04.17-23.03.39:020][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx) Virtual=8192.0GB
+[2015.04.17-23.03.39:021][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.17-23.03.39:021][  0]LogMemory: Process Physical Memory: 47.68 MB used, 47.68 MB peak
+[2015.04.17-23.03.39:021][  0]LogMemory: Process Virtual Memory: 27.98 MB used, 27.98 MB peak
+[2015.04.17-23.03.39:021][  0]LogMemory: Physical Memory: 3551.43 MB used, 3996.20 MB total
+[2015.04.17-23.03.39:021][  0]LogMemory: Virtual Memory: 279.28 MB used, 8388608.00 MB total
+[2015.04.17-23.03.39:139][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660   (Feature Level 11_0)
+[2015.04.17-23.03.39:139][  0]LogD3D11RHI: Adapter has 1989MB of dedicated video memory, 0MB of dedicated system memory, and 1742MB of shared system memory, 2 output[s]
+[2015.04.17-23.03.39:139][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.17-23.03.39:146][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.04.17-23.03.39:157][  0]LogD3D11RHI: Async texture creation enabled
+[2015.04.17-23.03.39:725][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.04.17-23.03.40:227][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (J:/Program Files/Unreal/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (J:/Program Files/Unreal/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.04.17-23.03.40:227][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (J:/Program Files/Unreal/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (J:/Program Files/Unreal/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.04.17-23.03.40:314][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.04.17-23.03.43:503][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.17-23.03.44:448][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.17-23.03.44:533][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.04.17-23.03.44:636][  0]LogDerivedDataCache: Loaded boot cache 0.10s 39MB C:/Users/Rusty/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.17-23.03.44:636][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Rusty/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.04.17-23.03.44:636][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Unreal Projects/Bridge/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.17-23.03.44:636][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.04.17-23.03.44:817][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.04.17-23.03.44:829][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Rusty/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.04.17-23.03.47:535][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.04.17-23.03.47:535][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.04.17-23.03.47:993][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.04.17-23.03.48:140][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.04.17-23.03.51:715][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.04.17-23.03.52:242][  0]SourceControl: Info Source control is disabled
+[2015.04.17-23.03.52:242][  0]SourceControl: Info Source control is disabled
+[2015.04.17-23.03.52:242][  0]SourceControl: Info Source control is disabled
+[2015.04.17-23.03.52:242][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.17-23.03.52:242][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.04.17-23.03.52:253][  0]SourceControl: Info Source control is disabled
+[2015.04.17-23.03.52:843][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.04.17-23.03.52:843][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.04.17-23.03.52:992][  0]LogEngine: Initializing Engine...
+[2015.04.17-23.03.55:174][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2015.04.17-23.03.55:187][  0]LogInit: FAudioDevice initialized.
+[2015.04.17-23.03.55:256][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.17-23.03.55:301][  0]LogDerivedDataCache: Saved boot cache 0.04s 39MB C:/Users/Rusty/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.17-23.03.55:317][  0]LogInit: Texture streaming: Enabled
+[2015.04.17-23.03.55:450][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.04.17-23.03.55:450][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.5-2503383+++depot+UE4-Releases+4.7
+[2015.04.17-23.03.55:450][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.5-2503383+++depot+UE4-Releases+4.7
+[2015.04.17-23.03.55:469][  0]LogAnalytics: SetUserId 76746d4b4fbeed9bd0e2b4a9a4961198|f9ef5879904e45a5a0f4e310fbfb2caf|70f13971-2139-453f-8553-998f7c412fae
+[2015.04.17-23.03.55:469][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.04.17-23.03.55:551][  0]LogInit: Transaction tracking system initialized
+[2015.04.17-23.03.56:009][  0]BlueprintLog: New page: Editor Load
+[2015.04.17-23.03.56:061][  0]LogAssetRegistry: FAssetRegistry took 0.0097 seconds to start up
+[2015.04.17-23.03.56:061][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.04.17-23.03.56:796][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.17-23.03.57:194][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.17-23.03.57:503][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.04.17-23.03.57:503][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.04.17-23.03.57:509][  0]LogConsoleResponse:Display: 
+[2015.04.17-23.03.57:675][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.04.17-23.03.57:835][  0]SourceControl: Info Source control is disabled
+[2015.04.17-23.03.57:835][  0]Cmd: MAP LOAD FILE="../../../../../../../Unreal Projects/Bridge/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.17-23.03.57:848][  0]LightingResults: New page: Lighting Build
+[2015.04.17-23.03.57:862][  0]MapCheck: New page: Map Check
+[2015.04.17-23.03.57:862][  0]LightingResults: New page: Lighting Build
+[2015.04.17-23.03.57:873][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001164A980
+[2015.04.17-23.03.59:210][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.17-23.03.59:229][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.04.17-23.03.59:230][  0]Cmd: MAP CHECKDEP
+[2015.04.17-23.03.59:230][  0]MapCheck: New page: Minimal_Default - Apr 17, 2015, 3:03:59 PM
+[2015.04.17-23.03.59:308][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 77.911ms to complete.
+[2015.04.17-23.03.59:308][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.473
+[2015.04.17-23.03.59:452][  0]LogCollectionManager: Loaded 0 collections in 0.001678 seconds
+[2015.04.17-23.03.59:464][  0]LogContentBrowser: Native class hierarchy populated in 0.0116 seconds. Added 1696 classes and 261 folders.
+[2015.04.17-23.03.59:509][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0017 seconds. Added 1 classes and 2 folders.
+[2015.04.17-23.03.59:564][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.04.17-23.03.59:565][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.04.17-23.03.59:571][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.04.17-23.03.59:597][  0]LogLoad: Full Startup: 27.99 seconds (BP compile: 0.09 seconds)
+[2015.04.17-23.03.59:972][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.04.17-23.04.00:268][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.04.17-23.04.00:441][  0]LogRenderer:Warning: Reallocating scene render targets to support 856x488 (Frame:3).
+[2015.04.17-23.04.01:930][  5]LogAssetRegistry: Asset discovery search completed in 5.8781 seconds
+[2015.04.17-23.04.09:766][109]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Levels'
+[2015.04.17-23.04.12:194][147]Cmd: MAP LOAD FILE="../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.17-23.04.12:194][147]LightingResults: New page: Lighting Build
+[2015.04.17-23.04.12:254][147]LoadErrors: New page: Loading map: Bridge.umap
+[2015.04.17-23.04.12:270][147]MapCheck: New page: Map Check
+[2015.04.17-23.04.12:270][147]LightingResults: New page: Lighting Build
+[2015.04.17-23.04.12:283][147]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D663420
+[2015.04.17-23.04.12:438][147]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.17-23.04.12:442][147]LogAIModule: Creating AISystem for world Bridge
+[2015.04.17-23.04.12:491][147]Cmd: MAP CHECKDEP
+[2015.04.17-23.04.12:491][147]MapCheck: New page: Bridge - Apr 17, 2015, 3:04:12 PM
+[2015.04.17-23.04.12:583][147]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 91.8ms to complete.
+[2015.04.17-23.04.12:583][147]LogFileHelpers: Loading map 'Bridge' took 0.393
+[2015.04.17-23.04.15:746][403]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.17-23.04.15:746][403]LogPlayLevel: [PIE] Compiling Bridge before PIE...
+[2015.04.17-23.04.15:939][403]LogPlayLevel: PIE:  Blueprint regeneration took 192 ms (1 blueprints)
+[2015.04.17-23.04.15:959][403]PIE: New page: PIE session: Bridge (Apr 17, 2015, 3:04:15 PM)
+[2015.04.17-23.04.16:015][403]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055692s)
+[2015.04.17-23.04.16:016][403]LogPlayLevel: PIE: World Init took: (0.000800s)
+[2015.04.17-23.04.16:016][403]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Bridge.Bridge to /Game/Levels/UEDPIE_0_Bridge.Bridge (0.056871s)
+[2015.04.17-23.04.16:146][403]LogWorld: Game class is 'GameMode_Bridge_C'
+[2015.04.17-23.04.16:322][403]LogAIModule: Creating AISystem for world Bridge
+[2015.04.17-23.04.16:327][403]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Bridge.Bridge up for play (max tick rate 0) at 2015.04.17-19.04.16
+[2015.04.17-23.04.16:376][403]LogWorld: Bringing up level for play took: 0.053561
+[2015.04.17-23.04.16:496][403]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Bridge 0.318
+[2015.04.17-23.04.59:818][437]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001DD35A80
+[2015.04.17-23.05.33:251][343]LogRenderer:Warning: Reallocating scene render targets to support 1152x912 (Frame:7330).
+[2015.04.17-23.06.46:937][330]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.04.17-23.07.36:478][586]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.04.17-23.14.49:297][520]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000201B0AE0
+[2015.04.17-23.14.49:303][520]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Bridge' took 0.033
+[2015.04.17-23.14.49:439][520]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Star] ([1] browsable assets)...
+[2015.04.17-23.14.49:457][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Star]
+[2015.04.17-23.14.49:460][520]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Star" FILE="../../../../../../../Unreal Projects/Bridge/Saved/Autosaves/Game/Blueprints/Star_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.04.17-23.14.49:644][520]LogSavePackage: Save=154.940948ms
+[2015.04.17-23.14.49:645][520]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/Star_Auto105C864F24A5E2AA30E749BA3DA655586.tmp' to '../../../../../../../Unreal Projects/Bridge/Saved/Autosaves/Game/Blueprints/Star_Auto1.uasset'
+[2015.04.17-23.14.49:700][520]LogFileHelpers: Auto-saving content packages took 0.397
+[2015.04.17-23.21.26:470][652]BlueprintLog: New page: Compile Star
+[2015.04.17-23.21.26:601][652]BlueprintEditorCompileResults: Info [1075.06] Compile of Star successful! [in 130 ms]
+[2015.04.17-23.21.27:862][690]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Star" FILE="../../../../../../../Unreal Projects/Bridge/Content/Blueprints/Star.uasset" SILENT=true
+[2015.04.17-23.21.27:890][690]LogSavePackage: Save=16.511177ms
+[2015.04.17-23.21.27:890][690]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/StarCE3495FB46213F11AB0942A6AC3FC8B4.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Blueprints/Star.uasset'
+[2015.04.17-23.22.40:625][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Star" FILE="../../../../../../../Unreal Projects/Bridge/Content/Blueprints/Star.uasset" SILENT=true
+[2015.04.17-23.22.40:803][404]LogSavePackage: Save=17.401562ms
+[2015.04.17-23.22.40:803][404]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/StarD1849B294E9687DA22A7218F275597FF.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Blueprints/Star.uasset'
+[2015.04.17-23.23.13:917][537]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.04.17-23.24.14:795][486]BlueprintLog: New page: Compile GameMode_Bridge
+[2015.04.17-23.24.14:878][486]BlueprintEditorCompileResults: Info [1243.35] Compile of GameMode_Bridge successful! [in 82 ms]
+[2015.04.17-23.24.24:423][332]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameMode_Bridge" FILE="../../../../../../../Unreal Projects/Bridge/Content/Blueprints/GameMode_Bridge.uasset" SILENT=true
+[2015.04.17-23.24.24:454][332]LogSavePackage: Save=14.823525ms
+[2015.04.17-23.24.24:454][332]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/GameMode_BridgeC0C4A7D24136BB5EE0C404B473083491.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Blueprints/GameMode_Bridge.uasset'
+[2015.04.17-23.24.24:475][332]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../../Unreal Projects/Bridge/Content/Blueprints/Player.uasset" SILENT=true
+[2015.04.17-23.24.24:508][332]LogSavePackage: Save=32.171768ms
+[2015.04.17-23.24.24:508][332]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/Player1ADBBEB84E212D06291A58B3CF0566AF.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Blueprints/Player.uasset'
+[2015.04.17-23.24.33:455][849]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.17-23.24.33:460][849]LogPlayLevel: [PIE] Compiling Star before PIE...
+[2015.04.17-23.24.33:505][849]LogPlayLevel: [PIE] Compiling Bridge before PIE...
+[2015.04.17-23.24.33:592][849]LogPlayLevel: PIE:  Blueprint regeneration took 136 ms (2 blueprints)
+[2015.04.17-23.24.33:592][849]PIE: New page: PIE session: Bridge (Apr 17, 2015, 3:24:33 PM)
+[2015.04.17-23.24.33:606][849]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013345s)
+[2015.04.17-23.24.33:607][849]LogPlayLevel: PIE: World Init took: (0.000889s)
+[2015.04.17-23.24.33:607][849]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Bridge.Bridge to /Game/Levels/UEDPIE_0_Bridge.Bridge (0.014430s)
+[2015.04.17-23.24.33:641][849]LogWorld: Game class is 'GameMode_Bridge_C'
+[2015.04.17-23.24.33:644][849]LogAIModule: Creating AISystem for world Bridge
+[2015.04.17-23.24.33:649][849]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Bridge.Bridge up for play (max tick rate 0) at 2015.04.17-19.24.33
+[2015.04.17-23.24.33:649][849]LogWorld: Bringing up level for play took: 0.004633
+[2015.04.17-23.24.33:673][849]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Bridge -0.427
+[2015.04.17-23.24.45:194][ 88]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000292AB7E0
+[2015.04.17-23.34.41:922][544]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../../Unreal Projects/Bridge/Content/Blueprints/Player.uasset" SILENT=true
+[2015.04.17-23.34.41:992][544]LogSavePackage: Save=46.436569ms
+[2015.04.17-23.34.41:992][544]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/Player244F0ABF4459468630CA4F9730FB482C.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Blueprints/Player.uasset'
+[2015.04.17-23.34.47:739][888]BlueprintLog: New page: Compile Player
+[2015.04.17-23.34.47:847][888]BlueprintEditorCompileResults: Info [1876.36] Compile of Player successful! [in 107 ms]
+[2015.04.17-23.34.49:393][942]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.17-23.34.49:396][942]LogPlayLevel: [PIE] Compiling Bridge before PIE...
+[2015.04.17-23.34.49:487][942]LogPlayLevel: PIE:  Blueprint regeneration took 94 ms (1 blueprints)
+[2015.04.17-23.34.49:487][942]PIE: New page: PIE session: Bridge (Apr 17, 2015, 3:34:49 PM)
+[2015.04.17-23.34.49:501][942]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013303s)
+[2015.04.17-23.34.49:502][942]LogPlayLevel: PIE: World Init took: (0.001144s)
+[2015.04.17-23.34.49:502][942]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Bridge.Bridge to /Game/Levels/UEDPIE_0_Bridge.Bridge (0.014637s)
+[2015.04.17-23.34.49:539][942]LogWorld: Game class is 'GameMode_Bridge_C'
+[2015.04.17-23.34.49:542][942]LogAIModule: Creating AISystem for world Bridge
+[2015.04.17-23.34.49:546][942]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Bridge.Bridge up for play (max tick rate 0) at 2015.04.17-19.34.49
+[2015.04.17-23.34.49:547][942]LogWorld: Bringing up level for play took: 0.004450
+[2015.04.17-23.34.49:549][942]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Bridge -0.513
+[2015.04.17-23.35.00:046][796]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003B84E8E0
+[2015.04.17-23.35.12:215][403]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Bridge' took 0.027
+[2015.04.17-23.35.12:260][403]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Player] ([1] browsable assets)...
+[2015.04.17-23.35.12:278][403]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player]
+[2015.04.17-23.35.12:281][403]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../../Unreal Projects/Bridge/Saved/Autosaves/Game/Blueprints/Player_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2015.04.17-23.35.12:426][403]LogSavePackage: Save=135.429504ms
+[2015.04.17-23.35.12:427][403]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/Player_Auto26CD413384CFBB391B8F37FABC91FB3D7.tmp' to '../../../../../../../Unreal Projects/Bridge/Saved/Autosaves/Game/Blueprints/Player_Auto2.uasset'
+[2015.04.17-23.35.12:434][403]LogFileHelpers: Auto-saving content packages took 0.219
+[2015.04.17-23.35.26:710][757]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../../Unreal Projects/Bridge/Content/Blueprints/Player.uasset" SILENT=true
+[2015.04.17-23.35.26:776][757]LogSavePackage: Save=56.267296ms
+[2015.04.17-23.35.26:776][757]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/Player0BE9AF1B45E19F7BC3C7EDAD4AFF4D75.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Blueprints/Player.uasset'
+[2015.04.17-23.35.27:222][781]BlueprintLog: New page: Compile Player
+[2015.04.17-23.35.27:321][781]BlueprintEditorCompileResults: Info [1915.84] Compile of Player successful! [in 98 ms]
+[2015.04.17-23.35.31:020][ 53]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.17-23.35.31:023][ 53]LogPlayLevel: [PIE] Compiling Bridge before PIE...
+[2015.04.17-23.35.31:112][ 53]LogPlayLevel: PIE:  Blueprint regeneration took 91 ms (1 blueprints)
+[2015.04.17-23.35.31:112][ 53]PIE: New page: PIE session: Bridge (Apr 17, 2015, 3:35:31 PM)
+[2015.04.17-23.35.31:126][ 53]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013369s)
+[2015.04.17-23.35.31:127][ 53]LogPlayLevel: PIE: World Init took: (0.000758s)
+[2015.04.17-23.35.31:127][ 53]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Bridge.Bridge to /Game/Levels/UEDPIE_0_Bridge.Bridge (0.014378s)
+[2015.04.17-23.35.31:160][ 53]LogWorld: Game class is 'GameMode_Bridge_C'
+[2015.04.17-23.35.31:162][ 53]LogAIModule: Creating AISystem for world Bridge
+[2015.04.17-23.35.31:167][ 53]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Bridge.Bridge up for play (max tick rate 0) at 2015.04.17-19.35.31
+[2015.04.17-23.35.31:167][ 53]LogWorld: Bringing up level for play took: 0.004554
+[2015.04.17-23.35.31:170][ 53]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Bridge 1.11
+[2015.04.17-23.35.38:161][689]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002DB17380
+[2015.04.17-23.37.14:345][157]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.17-23.37.51:626][559]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.17-23.37.51:627][559]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.17-23.39.23:895][ 64]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../../Unreal Projects/Bridge/Content/Blueprints/Player.uasset" SILENT=true
+[2015.04.17-23.39.24:880][ 64]LogSavePackage: Save=417.574982ms
+[2015.04.17-23.39.24:880][ 64]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/Player4C05403A452A7A63ECDAF586724127CA.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Blueprints/Player.uasset'
+[2015.04.17-23.39.28:337][380]BlueprintLog: New page: Compile Player
+[2015.04.17-23.39.30:601][380]BlueprintEditorCompileResults: Info [2159.08] Compile of Player successful! [in 2,203 ms]
+[2015.04.17-23.39.39:102][798]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.17-23.39.39:147][798]LogPlayLevel: [PIE] Compiling Bridge before PIE...
+[2015.04.17-23.39.39:420][798]LogPlayLevel: PIE:  Blueprint regeneration took 318 ms (1 blueprints)
+[2015.04.17-23.39.39:489][798]PIE: New page: PIE session: Bridge (Apr 17, 2015, 3:39:39 PM)
+[2015.04.17-23.39.39:762][798]LogPlayLevel: PIE: StaticDuplicateObject took: (0.254354s)
+[2015.04.17-23.39.39:936][798]LogPlayLevel: PIE: World Init took: (0.174190s)
+[2015.04.17-23.39.39:936][798]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Bridge.Bridge to /Game/Levels/UEDPIE_0_Bridge.Bridge (0.429520s)
+[2015.04.17-23.39.40:218][798]LogWorld: Game class is 'GameMode_Bridge_C'
+[2015.04.17-23.39.40:340][798]LogAIModule: Creating AISystem for world Bridge
+[2015.04.17-23.39.40:430][798]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Bridge.Bridge up for play (max tick rate 0) at 2015.04.17-19.39.40
+[2015.04.17-23.39.40:448][798]LogWorld: Bringing up level for play took: 0.106016
+[2015.04.17-23.39.40:595][798]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Bridge 0.545
+[2015.04.17-23.39.53:317][770]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003966EFC0
+[2015.04.17-23.40.15:070][476]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../../Unreal Projects/Bridge/Content/Blueprints/Player.uasset" SILENT=true
+[2015.04.17-23.40.15:179][476]LogSavePackage: Save=70.385147ms
+[2015.04.17-23.40.15:179][476]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/PlayerFD0B4F1B4F120B8D631427A109E43011.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Blueprints/Player.uasset'
+[2015.04.17-23.40.15:869][519]BlueprintLog: New page: Compile Player
+[2015.04.17-23.40.15:973][519]BlueprintEditorCompileResults: Info [2204.50] Compile of Player successful! [in 104 ms]
+[2015.04.17-23.40.17:569][585]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.17-23.40.17:574][585]LogPlayLevel: [PIE] Compiling Bridge before PIE...
+[2015.04.17-23.40.17:662][585]LogPlayLevel: PIE:  Blueprint regeneration took 92 ms (1 blueprints)
+[2015.04.17-23.40.17:662][585]PIE: New page: PIE session: Bridge (Apr 17, 2015, 3:40:17 PM)
+[2015.04.17-23.40.17:677][585]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014098s)
+[2015.04.17-23.40.17:678][585]LogPlayLevel: PIE: World Init took: (0.000854s)
+[2015.04.17-23.40.17:678][585]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Bridge.Bridge to /Game/Levels/UEDPIE_0_Bridge.Bridge (0.015145s)
+[2015.04.17-23.40.17:712][585]LogWorld: Game class is 'GameMode_Bridge_C'
+[2015.04.17-23.40.17:715][585]LogAIModule: Creating AISystem for world Bridge
+[2015.04.17-23.40.17:720][585]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Bridge.Bridge up for play (max tick rate 0) at 2015.04.17-19.40.17
+[2015.04.17-23.40.17:720][585]LogWorld: Bringing up level for play took: 0.004719
+[2015.04.17-23.40.17:722][585]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Bridge -0.326
+[2015.04.17-23.40.24:497][305]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003F0011C0
+[2015.04.17-23.45.20:013][974]BlueprintLog: New page: Compile Player
+[2015.04.17-23.45.20:159][974]BlueprintEditorCompileResults: Info [2508.71] Compile of Player successful! [in 145 ms]
+[2015.04.17-23.45.22:451][ 48]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.17-23.45.22:457][ 48]LogPlayLevel: [PIE] Compiling Bridge before PIE...
+[2015.04.17-23.45.22:562][ 48]LogPlayLevel: PIE:  Blueprint regeneration took 111 ms (1 blueprints)
+[2015.04.17-23.45.22:562][ 48]PIE: New page: PIE session: Bridge (Apr 17, 2015, 3:45:22 PM)
+[2015.04.17-23.45.22:577][ 48]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013769s)
+[2015.04.17-23.45.22:578][ 48]LogPlayLevel: PIE: World Init took: (0.001021s)
+[2015.04.17-23.45.22:578][ 48]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Bridge.Bridge to /Game/Levels/UEDPIE_0_Bridge.Bridge (0.015052s)
+[2015.04.17-23.45.22:616][ 48]LogWorld: Game class is 'GameMode_Bridge_C'
+[2015.04.17-23.45.22:619][ 48]LogAIModule: Creating AISystem for world Bridge
+[2015.04.17-23.45.22:623][ 48]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Bridge.Bridge up for play (max tick rate 0) at 2015.04.17-19.45.22
+[2015.04.17-23.45.22:624][ 48]LogWorld: Bringing up level for play took: 0.004607
+[2015.04.17-23.45.22:626][ 48]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Bridge 0.598
+[2015.04.17-23.45.37:268][200]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002116B2E0
+[2015.04.17-23.45.56:270][295]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Bridge' took 0.030
+[2015.04.17-23.45.56:357][295]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Player] ([1] browsable assets)...
+[2015.04.17-23.45.56:376][295]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player]
+[2015.04.17-23.45.56:382][295]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../../Unreal Projects/Bridge/Saved/Autosaves/Game/Blueprints/Player_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2015.04.17-23.45.56:606][295]LogSavePackage: Save=193.986801ms
+[2015.04.17-23.45.56:610][295]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/Player_Auto32B5999F146868E8B435D2FAAE00DC2D4.tmp' to '../../../../../../../Unreal Projects/Bridge/Saved/Autosaves/Game/Blueprints/Player_Auto3.uasset'
+[2015.04.17-23.45.56:641][295]LogFileHelpers: Auto-saving content packages took 0.371
+[2015.04.17-23.46.55:514][548]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../../Unreal Projects/Bridge/Content/Blueprints/Player.uasset" SILENT=true
+[2015.04.17-23.46.55:606][548]LogSavePackage: Save=82.280350ms
+[2015.04.17-23.46.55:606][548]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/Player161A21FE40F0FE1AD019F880D209960D.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Blueprints/Player.uasset'
+[2015.04.17-23.46.56:614][615]BlueprintLog: New page: Compile Player
+[2015.04.17-23.46.56:737][615]BlueprintEditorCompileResults: Info [2605.29] Compile of Player successful! [in 122 ms]
+[2015.04.17-23.47.00:297][742]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.17-23.47.00:301][742]LogPlayLevel: [PIE] Compiling Bridge before PIE...
+[2015.04.17-23.47.00:390][742]LogPlayLevel: PIE:  Blueprint regeneration took 92 ms (1 blueprints)
+[2015.04.17-23.47.00:390][742]PIE: New page: PIE session: Bridge (Apr 17, 2015, 3:47:00 PM)
+[2015.04.17-23.47.00:404][742]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013004s)
+[2015.04.17-23.47.00:405][742]LogPlayLevel: PIE: World Init took: (0.001298s)
+[2015.04.17-23.47.00:405][742]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Bridge.Bridge to /Game/Levels/UEDPIE_0_Bridge.Bridge (0.014492s)
+[2015.04.17-23.47.00:441][742]LogWorld: Game class is 'GameMode_Bridge_C'
+[2015.04.17-23.47.00:444][742]LogAIModule: Creating AISystem for world Bridge
+[2015.04.17-23.47.00:448][742]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Bridge.Bridge up for play (max tick rate 0) at 2015.04.17-19.47.00
+[2015.04.17-23.47.00:449][742]LogWorld: Bringing up level for play took: 0.004542
+[2015.04.17-23.47.00:451][742]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Bridge 0.433
+[2015.04.17-23.47.05:457][249]LogCharacter: Player_C_2 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2015.04.17-23.47.06:602][371]LogCharacter: Player_C_2 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2015.04.17-23.47.07:178][434]LogCharacter: Player_C_2 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2015.04.17-23.47.08:556][577]LogCharacter: Player_C_2 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2015.04.17-23.47.13:191][ 58]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003B429A80
+[2015.04.17-23.47.50:397][437]BlueprintLog: New page: Compile Player
+[2015.04.17-23.47.50:513][437]BlueprintEditorCompileResults: Info [2659.08] Compile of Player successful! [in 115 ms]
+[2015.04.17-23.47.58:569][104]MapCheck: New page: Map Check
+[2015.04.17-23.47.58:741][104]Cmd: MAP REBUILD ALLVISIBLE
+[2015.04.17-23.47.58:785][104]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.04.17-23.47.59:194][104]LightingResults: New page: Lighting Build - Apr 17, 2015, 3:47:59 PM
+[2015.04.17-23.48.05:859][104]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.04.17-23.48.05:859][104]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.04.17-23.48.05:859][104]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.04.17-23.48.05:859][104]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.04.17-23.48.05:859][104]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.04.17-23.48.06:158][104]LogEditorBuildUtils: Build time 0:00:07
+[2015.04.17-23.48.08:137][137]Job is a success!
+[2015.04.17-23.48.08:593][139]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.04.17-23.48.08:640][139]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.04.17-23.48.08:676][139]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2015.04.17-23.48.08:840][139]Lightmass on RUSTY-PC: 1.51 sec total, 206 ms importing, 2 ms setup, 277 ms photons, 955 ms processing, 0 ms extra exporting [33/33 mappings]. Threads: 6.44 sec total, 1.19 sec processing.
+[2015.04.17-23.48.08:889][139]LogStaticLightingSystem: Illumination: 9.65 sec (228 ms encoding lightmaps)
+[2015.04.17-23.48.08:889][139]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.0 MB streaming, 0.1 MB non-streaming), 2 textures
+[2015.04.17-23.48.08:889][139]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.0 MB streaming, 0.2 MB non-streaming), 1 textures
+[2015.04.17-23.48.09:807][140]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.04.17-23.48.09:808][140]MapCheck: New page: Bridge - Apr 17, 2015, 3:48:09 PM
+[2015.04.17-23.48.13:442][140]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 3,634.419ms to complete.
+[2015.04.17-23.48.13:463][140]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.17-23.48.13:466][140]LogPlayLevel: [PIE] Compiling Bridge before PIE...
+[2015.04.17-23.48.13:554][140]LogPlayLevel: PIE:  Blueprint regeneration took 91 ms (1 blueprints)
+[2015.04.17-23.48.13:554][140]PIE: New page: PIE session: Bridge (Apr 17, 2015, 3:48:13 PM)
+[2015.04.17-23.48.13:568][140]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013804s)
+[2015.04.17-23.48.13:569][140]LogPlayLevel: PIE: World Init took: (0.000841s)
+[2015.04.17-23.48.13:569][140]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Bridge.Bridge to /Game/Levels/UEDPIE_0_Bridge.Bridge (0.014819s)
+[2015.04.17-23.48.13:601][140]LogWorld: Game class is 'GameMode_Bridge_C'
+[2015.04.17-23.48.13:604][140]LogAIModule: Creating AISystem for world Bridge
+[2015.04.17-23.48.13:608][140]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Bridge.Bridge up for play (max tick rate 0) at 2015.04.17-19.48.13
+[2015.04.17-23.48.13:609][140]LogWorld: Bringing up level for play took: 0.004528
+[2015.04.17-23.48.13:611][140]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Bridge -0.4
+[2015.04.17-23.48.33:955][181]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002E4B8AE0
+[2015.04.17-23.49.11:164][975]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Bridge" FILE="../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.17-23.49.11:509][975]LogSavePackage: Save=250.357437ms
+[2015.04.17-23.49.11:509][975]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/Bridge8D64C2884003908473DC519584B4806C.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap'
+[2015.04.17-23.49.11:623][975]LogFileHelpers: Saving map 'Bridge' took 0.561
+[2015.04.17-23.49.11:667][975]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SimpleSwitchLight" FILE="../../../../../../../Unreal Projects/Bridge/Content/Blueprints/SimpleSwitchLight.uasset" SILENT=true
+[2015.04.17-23.49.12:145][975]LogSavePackage: Save=432.313049ms
+[2015.04.17-23.49.12:145][975]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/SimpleSwitchLight8C0128424C5AE7C34F4A3E824AA29143.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Blueprints/SimpleSwitchLight.uasset'
+[2015.04.17-23.49.18:273][369]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.17-23.49.18:286][369]LogPlayLevel: [PIE] Compiling SimpleSwitchLight before PIE...
+[2015.04.17-23.49.18:376][369]LogPlayLevel: [PIE] Compiling Bridge before PIE...
+[2015.04.17-23.49.18:467][369]LogPlayLevel: PIE:  Blueprint regeneration took 193 ms (2 blueprints)
+[2015.04.17-23.49.18:467][369]PIE: New page: PIE session: Bridge (Apr 17, 2015, 3:49:18 PM)
+[2015.04.17-23.49.18:481][369]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013892s)
+[2015.04.17-23.49.18:482][369]LogPlayLevel: PIE: World Init took: (0.000808s)
+[2015.04.17-23.49.18:482][369]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Bridge.Bridge to /Game/Levels/UEDPIE_0_Bridge.Bridge (0.015028s)
+[2015.04.17-23.49.18:515][369]LogWorld: Game class is 'GameMode_Bridge_C'
+[2015.04.17-23.49.18:518][369]LogAIModule: Creating AISystem for world Bridge
+[2015.04.17-23.49.18:522][369]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Bridge.Bridge up for play (max tick rate 0) at 2015.04.17-19.49.18
+[2015.04.17-23.49.18:523][369]LogWorld: Bringing up level for play took: 0.004708
+[2015.04.17-23.49.18:525][369]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Bridge 0.519
+[2015.04.17-23.49.52:157][834]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000040338540
+[2015.04.17-23.50.01:106][407]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Bridge" FILE="../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.17-23.50.01:315][407]LogSavePackage: Save=170.363007ms
+[2015.04.17-23.50.01:315][407]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/BridgeC22071BD421AAEDCAB479C9C1C08E0AF.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap'
+[2015.04.17-23.50.01:344][407]LogFileHelpers: Saving map 'Bridge' took 0.339
+[2015.04.17-23.50.01:383][407]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SimpleSwitchLight" FILE="../../../../../../../Unreal Projects/Bridge/Content/Blueprints/SimpleSwitchLight.uasset" SILENT=true
+[2015.04.17-23.50.01:767][407]LogSavePackage: Save=373.848114ms
+[2015.04.17-23.50.01:767][407]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/SimpleSwitchLight4805E7374B8B1E78D503ECAB863CBB0C.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Blueprints/SimpleSwitchLight.uasset'
+[2015.04.17-23.50.02:181][450]BlueprintLog: New page: Compile SimpleSwitchLight
+[2015.04.17-23.50.02:288][450]BlueprintEditorCompileResults: Info [2790.86] Compile of SimpleSwitchLight successful! [in 106 ms]
+[2015.04.17-23.50.04:104][554]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.17-23.50.04:108][554]LogPlayLevel: [PIE] Compiling Bridge before PIE...
+[2015.04.17-23.50.04:194][554]LogPlayLevel: PIE:  Blueprint regeneration took 90 ms (1 blueprints)
+[2015.04.17-23.50.04:194][554]PIE: New page: PIE session: Bridge (Apr 17, 2015, 3:50:04 PM)
+[2015.04.17-23.50.04:207][554]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012776s)
+[2015.04.17-23.50.04:208][554]LogPlayLevel: PIE: World Init took: (0.000794s)
+[2015.04.17-23.50.04:208][554]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Bridge.Bridge to /Game/Levels/UEDPIE_0_Bridge.Bridge (0.013743s)
+[2015.04.17-23.50.04:241][554]LogWorld: Game class is 'GameMode_Bridge_C'
+[2015.04.17-23.50.04:243][554]LogAIModule: Creating AISystem for world Bridge
+[2015.04.17-23.50.04:248][554]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Bridge.Bridge up for play (max tick rate 0) at 2015.04.17-19.50.04
+[2015.04.17-23.50.04:248][554]LogWorld: Bringing up level for play took: 0.004526
+[2015.04.17-23.50.04:251][554]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Bridge 0.245
+[2015.04.17-23.50.27:905][952]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004033B920
+[2015.04.17-23.50.29:715][ 96]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Bridge" FILE="../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.17-23.50.29:897][ 96]LogSavePackage: Save=146.272568ms
+[2015.04.17-23.50.29:897][ 96]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/BridgeFD08C7574DFF8C4290CF8A86B3A48E89.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap'
+[2015.04.17-23.50.29:927][ 96]LogFileHelpers: Saving map 'Bridge' took 0.314
+[2015.04.17-23.50.29:951][ 96]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SimpleSwitchLight" FILE="../../../../../../../Unreal Projects/Bridge/Content/Blueprints/SimpleSwitchLight.uasset" SILENT=true
+[2015.04.17-23.50.30:316][ 96]LogSavePackage: Save=355.178070ms
+[2015.04.17-23.50.30:316][ 96]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/SimpleSwitchLight55B2857A4203304E8D37178830D11710.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Blueprints/SimpleSwitchLight.uasset'
+[2015.04.17-23.50.31:662][155]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.17-23.50.31:665][155]LogPlayLevel: [PIE] Compiling Bridge before PIE...
+[2015.04.17-23.50.31:753][155]LogPlayLevel: PIE:  Blueprint regeneration took 91 ms (1 blueprints)
+[2015.04.17-23.50.31:753][155]PIE: New page: PIE session: Bridge (Apr 17, 2015, 3:50:31 PM)
+[2015.04.17-23.50.31:767][155]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013347s)
+[2015.04.17-23.50.31:768][155]LogPlayLevel: PIE: World Init took: (0.000827s)
+[2015.04.17-23.50.31:768][155]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Bridge.Bridge to /Game/Levels/UEDPIE_0_Bridge.Bridge (0.014357s)
+[2015.04.17-23.50.31:800][155]LogWorld: Game class is 'GameMode_Bridge_C'
+[2015.04.17-23.50.31:803][155]LogAIModule: Creating AISystem for world Bridge
+[2015.04.17-23.50.31:807][155]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Bridge.Bridge up for play (max tick rate 0) at 2015.04.17-19.50.31
+[2015.04.17-23.50.31:808][155]LogWorld: Bringing up level for play took: 0.004680
+[2015.04.17-23.50.31:810][155]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Bridge -0.195
+[2015.04.17-23.50.48:739][898]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004030F920
+[2015.04.17-23.52.32:217][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Bridge" FILE="../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.17-23.52.32:426][421]LogSavePackage: Save=171.508514ms
+[2015.04.17-23.52.32:426][421]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/Bridge7819C75B4F4E822EB32BE6872F393D52.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap'
+[2015.04.17-23.52.32:456][421]LogFileHelpers: Saving map 'Bridge' took 0.339
+[2015.04.17-23.53.25:936][218]LogEditorViewport: Clicking on Actor (LMB): Player_C (Player)
+[2015.04.17-23.53.27:357][336]Cmd: DELETE
+[2015.04.17-23.53.27:357][336]Cmd: ACTOR DELETE
+[2015.04.17-23.53.27:461][336]LogEditorActor: Deleted Actor: Player_C
+[2015.04.17-23.53.27:490][336]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2015.04.17-23.54.03:952][708]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Bridge" FILE="../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.17-23.54.04:166][708]LogSavePackage: Save=176.809494ms
+[2015.04.17-23.54.04:166][708]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/Bridge6E170DD5477125AF9C1768A74D2D7E3E.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap'
+[2015.04.17-23.54.04:195][708]LogFileHelpers: Saving map 'Bridge' took 0.345
+[2015.04.17-23.54.04:201][708]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Star" FILE="../../../../../../../Unreal Projects/Bridge/Content/Blueprints/Star.uasset" SILENT=true
+[2015.04.17-23.54.04:243][708]LogSavePackage: Save=31.214027ms
+[2015.04.17-23.54.04:243][708]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/StarD81341104DC02DB64CD1EFB0F2E110FD.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Blueprints/Star.uasset'
+[2015.04.17-23.54.04:852][746]BlueprintLog: New page: Compile Star
+[2015.04.17-23.54.04:943][746]BlueprintEditorCompileResults: Info [3033.52] Compile of Star successful! [in 90 ms]
+[2015.04.17-23.54.19:665][943]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Bridge" FILE="../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.17-23.54.19:876][943]LogSavePackage: Save=170.927597ms
+[2015.04.17-23.54.19:876][943]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/BridgeA6EB21FE4D2D2F522D56CFB0B13F54D5.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap'
+[2015.04.17-23.54.19:906][943]LogFileHelpers: Saving map 'Bridge' took 0.343
+[2015.04.17-23.54.20:671][970]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.17-23.54.20:675][970]LogPlayLevel: [PIE] Compiling Bridge before PIE...
+[2015.04.17-23.54.20:764][970]LogPlayLevel: PIE:  Blueprint regeneration took 92 ms (1 blueprints)
+[2015.04.17-23.54.20:764][970]PIE: New page: PIE session: Bridge (Apr 17, 2015, 3:54:20 PM)
+[2015.04.17-23.54.20:778][970]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013425s)
+[2015.04.17-23.54.20:779][970]LogPlayLevel: PIE: World Init took: (0.000820s)
+[2015.04.17-23.54.20:779][970]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Bridge.Bridge to /Game/Levels/UEDPIE_0_Bridge.Bridge (0.014424s)
+[2015.04.17-23.54.20:814][970]LogWorld: Game class is 'GameMode_Bridge_C'
+[2015.04.17-23.54.20:817][970]LogAIModule: Creating AISystem for world Bridge
+[2015.04.17-23.54.20:821][970]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Bridge.Bridge up for play (max tick rate 0) at 2015.04.17-19.54.20
+[2015.04.17-23.54.20:822][970]LogWorld: Bringing up level for play took: 0.004665
+[2015.04.17-23.54.20:825][970]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Bridge 0.831
+[2015.04.17-23.54.32:076][103]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000020C0EB60
+[2015.04.17-23.54.39:144][466]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Bridge" FILE="../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.17-23.54.39:326][466]LogSavePackage: Save=145.524796ms
+[2015.04.17-23.54.39:326][466]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/Bridge837C9AC74C0E083F530C63B831E6975D.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap'
+[2015.04.17-23.54.39:356][466]LogFileHelpers: Saving map 'Bridge' took 0.314
+[2015.04.17-23.54.39:363][466]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Star" FILE="../../../../../../../Unreal Projects/Bridge/Content/Blueprints/Star.uasset" SILENT=true
+[2015.04.17-23.54.39:390][466]LogSavePackage: Save=17.407686ms
+[2015.04.17-23.54.39:390][466]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/Star0AA8FC914ED1B9C937039C8C75D2D4FC.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Blueprints/Star.uasset'
+[2015.04.17-23.54.58:998][762]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Bridge" FILE="../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.17-23.54.59:181][762]LogSavePackage: Save=146.850433ms
+[2015.04.17-23.54.59:181][762]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/BridgeD3B7FA754D4F821133FF74AF37C4E228.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap'
+[2015.04.17-23.54.59:211][762]LogFileHelpers: Saving map 'Bridge' took 0.315
+[2015.04.17-23.54.59:217][762]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Star" FILE="../../../../../../../Unreal Projects/Bridge/Content/Blueprints/Star.uasset" SILENT=true
+[2015.04.17-23.54.59:245][762]LogSavePackage: Save=17.191084ms
+[2015.04.17-23.54.59:245][762]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/StarB21B15F948D4B3BCC1041A87AAE28C2C.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Blueprints/Star.uasset'
+[2015.04.17-23.55.01:459][881]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.17-23.55.01:465][881]LogPlayLevel: [PIE] Compiling Star before PIE...
+[2015.04.17-23.55.01:521][881]LogPlayLevel: [PIE] Compiling Bridge before PIE...
+[2015.04.17-23.55.01:609][881]LogPlayLevel: PIE:  Blueprint regeneration took 150 ms (2 blueprints)
+[2015.04.17-23.55.01:609][881]PIE: New page: PIE session: Bridge (Apr 17, 2015, 3:55:01 PM)
+[2015.04.17-23.55.01:623][881]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013836s)
+[2015.04.17-23.55.01:624][881]LogPlayLevel: PIE: World Init took: (0.000817s)
+[2015.04.17-23.55.01:624][881]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Bridge.Bridge to /Game/Levels/UEDPIE_0_Bridge.Bridge (0.014830s)
+[2015.04.17-23.55.01:659][881]LogWorld: Game class is 'GameMode_Bridge_C'
+[2015.04.17-23.55.01:662][881]LogAIModule: Creating AISystem for world Bridge
+[2015.04.17-23.55.01:666][881]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Bridge.Bridge up for play (max tick rate 0) at 2015.04.17-19.55.01
+[2015.04.17-23.55.01:667][881]LogWorld: Bringing up level for play took: 0.004818
+[2015.04.17-23.55.01:669][881]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Bridge -0.32
+[2015.04.17-23.55.09:678][712]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004111BA60
+[2015.04.17-23.55.22:530][575]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Bridge" FILE="../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.17-23.55.22:718][575]LogSavePackage: Save=149.835388ms
+[2015.04.17-23.55.22:718][575]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/Bridge83747A5B4F31B213693ECA9920270083.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap'
+[2015.04.17-23.55.22:748][575]LogFileHelpers: Saving map 'Bridge' took 0.321
+[2015.04.17-23.56.10:490][613]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Bridge" FILE="../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.17-23.56.10:684][613]LogSavePackage: Save=156.437515ms
+[2015.04.17-23.56.10:684][613]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/Bridge959D442B4E6F2C40A16FEA8AE5EC3955.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap'
+[2015.04.17-23.56.10:714][613]LogFileHelpers: Saving map 'Bridge' took 0.326
+[2015.04.17-23.56.10:719][613]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Star" FILE="../../../../../../../Unreal Projects/Bridge/Content/Blueprints/Star.uasset" SILENT=true
+[2015.04.17-23.56.10:747][613]LogSavePackage: Save=17.379112ms
+[2015.04.17-23.56.10:747][613]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/StarAA9C7E5E4C4BB259757DEAA9B9878274.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Blueprints/Star.uasset'
+[2015.04.17-23.56.48:172][927]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Bridge" FILE="../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.17-23.56.48:365][927]LogSavePackage: Save=157.066147ms
+[2015.04.17-23.56.48:365][927]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/Bridge4F6A6BE3416CBCB7CA501BBCA9C3460A.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap'
+[2015.04.17-23.56.48:395][927]LogFileHelpers: Saving map 'Bridge' took 0.327
+[2015.04.17-23.56.48:401][927]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Star" FILE="../../../../../../../Unreal Projects/Bridge/Content/Blueprints/Star.uasset" SILENT=true
+[2015.04.17-23.56.48:428][927]LogSavePackage: Save=17.863338ms
+[2015.04.17-23.56.48:429][927]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/Star8669F18D419119C0CC3F54984941FF11.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Blueprints/Star.uasset'
+[2015.04.17-23.57.58:262][764]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Bridge" FILE="../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.17-23.57.58:493][764]LogSavePackage: Save=192.330536ms
+[2015.04.17-23.57.58:493][764]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/BridgeF52822AF42D1039DB662879D24654096.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap'
+[2015.04.17-23.57.58:523][764]LogFileHelpers: Saving map 'Bridge' took 0.363
+[2015.04.17-23.58.08:588][209]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Bridge" FILE="../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.17-23.58.08:773][209]LogSavePackage: Save=147.808426ms
+[2015.04.17-23.58.08:773][209]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/Bridge4C9E1A944F2B6F408ACFDB94985F5A4B.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap'
+[2015.04.17-23.58.08:803][209]LogFileHelpers: Saving map 'Bridge' took 0.317
+[2015.04.17-23.58.08:810][209]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Star" FILE="../../../../../../../Unreal Projects/Bridge/Content/Blueprints/Star.uasset" SILENT=true
+[2015.04.17-23.58.08:838][209]LogSavePackage: Save=17.741135ms
+[2015.04.17-23.58.08:838][209]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/StarDF41CF32407B06A696CF048CAA366511.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Blueprints/Star.uasset'
+[2015.04.17-23.59.24:638][885]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Bridge" FILE="../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.17-23.59.24:840][885]LogSavePackage: Save=147.139999ms
+[2015.04.17-23.59.24:840][885]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/Bridge7B6E323D4CEDEDBA3DE0A2A58675D3FA.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap'
+[2015.04.17-23.59.24:870][885]LogFileHelpers: Saving map 'Bridge' took 0.334
+[2015.04.17-23.59.24:876][885]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Star" FILE="../../../../../../../Unreal Projects/Bridge/Content/Blueprints/Star.uasset" SILENT=true
+[2015.04.17-23.59.24:912][885]LogSavePackage: Save=17.717663ms
+[2015.04.17-23.59.24:912][885]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/Star6D0962214F30D0DB04DAA7934B14A00E.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Blueprints/Star.uasset'
+[2015.04.17-23.59.25:424][902]BlueprintLog: New page: Compile Star
+[2015.04.17-23.59.25:520][902]BlueprintEditorCompileResults: Info [3354.12] Compile of Star successful! [in 96 ms]
+[2015.04.17-23.59.38:613][869]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Bridge" FILE="../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.17-23.59.38:796][869]LogSavePackage: Save=145.943970ms
+[2015.04.17-23.59.38:796][869]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/Bridge8B32054E436826C4D8FCD2974D5C661E.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap'
+[2015.04.17-23.59.38:826][869]LogFileHelpers: Saving map 'Bridge' took 0.314
+[2015.04.17-23.59.47:433][435]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Bridge" FILE="../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.17-23.59.47:618][435]LogSavePackage: Save=147.933441ms
+[2015.04.17-23.59.47:618][435]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/BridgeEA4075144E59AA1073638FB74F090D38.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap'
+[2015.04.17-23.59.47:648][435]LogFileHelpers: Saving map 'Bridge' took 0.318
+[2015.04.17-23.59.47:654][435]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Star" FILE="../../../../../../../Unreal Projects/Bridge/Content/Blueprints/Star.uasset" SILENT=true
+[2015.04.17-23.59.47:705][435]LogSavePackage: Save=40.431183ms
+[2015.04.17-23.59.47:705][435]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/StarD3134C744F4ACA6B32EFB7B8762169FD.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Blueprints/Star.uasset'
+[2015.04.17-23.59.48:338][463]BlueprintLog: New page: Compile Star
+[2015.04.17-23.59.48:446][463]BlueprintEditorCompileResults: Info [3377.05] Compile of Star successful! [in 108 ms]
+[2015.04.17-23.59.56:872][111]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Bridge" FILE="../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.17-23.59.57:061][111]LogSavePackage: Save=151.231949ms
+[2015.04.17-23.59.57:061][111]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/BridgeA507F4404D7D5C286F619BBA1CE7BB76.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap'
+[2015.04.17-23.59.57:091][111]LogFileHelpers: Saving map 'Bridge' took 0.321
+[2015.04.18-00.00.32:302][180]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Bridge" FILE="../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.18-00.00.32:488][180]LogSavePackage: Save=147.135147ms
+[2015.04.18-00.00.32:488][180]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/Bridge7301486743956D0E0B5F4F82D02D6EE0.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap'
+[2015.04.18-00.00.32:519][180]LogFileHelpers: Saving map 'Bridge' took 0.317
+[2015.04.18-00.00.32:525][180]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Star" FILE="../../../../../../../Unreal Projects/Bridge/Content/Blueprints/Star.uasset" SILENT=true
+[2015.04.18-00.00.32:553][180]LogSavePackage: Save=17.556423ms
+[2015.04.18-00.00.32:553][180]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/Star8E9A5D584D6B040991CDCA87EA7CD900.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Blueprints/Star.uasset'
+[2015.04.18-00.00.41:792][ 36]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.18-00.00.41:798][ 36]LogPlayLevel: [PIE] Compiling Star before PIE...
+[2015.04.18-00.00.41:853][ 36]LogPlayLevel: [PIE] Compiling Bridge before PIE...
+[2015.04.18-00.00.41:939][ 36]LogPlayLevel: PIE:  Blueprint regeneration took 147 ms (2 blueprints)
+[2015.04.18-00.00.41:940][ 36]PIE: New page: PIE session: Bridge (Apr 17, 2015, 4:00:41 PM)
+[2015.04.18-00.00.41:954][ 36]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013938s)
+[2015.04.18-00.00.41:955][ 36]LogPlayLevel: PIE: World Init took: (0.000867s)
+[2015.04.18-00.00.41:955][ 36]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Bridge.Bridge to /Game/Levels/UEDPIE_0_Bridge.Bridge (0.014983s)
+[2015.04.18-00.00.41:989][ 36]LogWorld: Game class is 'GameMode_Bridge_C'
+[2015.04.18-00.00.41:992][ 36]LogAIModule: Creating AISystem for world Bridge
+[2015.04.18-00.00.41:996][ 36]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Bridge.Bridge up for play (max tick rate 0) at 2015.04.17-20.00.41
+[2015.04.18-00.00.41:997][ 36]LogWorld: Bringing up level for play took: 0.004751
+[2015.04.18-00.00.41:999][ 36]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Bridge 0.027
+[2015.04.18-00.01.21:584][309]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000292A9A80
+[2015.04.18-00.01.31:473][101]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.18-00.01.31:476][101]LogPlayLevel: [PIE] Compiling Bridge before PIE...
+[2015.04.18-00.01.31:564][101]LogPlayLevel: PIE:  Blueprint regeneration took 90 ms (1 blueprints)
+[2015.04.18-00.01.31:564][101]PIE: New page: PIE session: Bridge (Apr 17, 2015, 4:01:31 PM)
+[2015.04.18-00.01.31:577][101]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012999s)
+[2015.04.18-00.01.31:578][101]LogPlayLevel: PIE: World Init took: (0.000979s)
+[2015.04.18-00.01.31:578][101]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Bridge.Bridge to /Game/Levels/UEDPIE_0_Bridge.Bridge (0.014186s)
+[2015.04.18-00.01.31:617][101]LogWorld: Game class is 'GameMode_Bridge_C'
+[2015.04.18-00.01.31:620][101]LogAIModule: Creating AISystem for world Bridge
+[2015.04.18-00.01.31:624][101]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Bridge.Bridge up for play (max tick rate 0) at 2015.04.17-20.01.31
+[2015.04.18-00.01.31:625][101]LogWorld: Bringing up level for play took: 0.004660
+[2015.04.18-00.01.31:628][101]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Bridge -0.342
+[2015.04.18-00.01.33:495][285]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000027AA1580
+[2015.04.18-00.01.45:069][248]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Bridge" FILE="../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.18-00.01.45:253][248]LogSavePackage: Save=146.380234ms
+[2015.04.18-00.01.45:253][248]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/Bridge4AD4C1FC42AFBB3089C974BB0CAA9057.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap'
+[2015.04.18-00.01.45:284][248]LogFileHelpers: Saving map 'Bridge' took 0.315
+[2015.04.18-00.02.34:766][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Bridge" FILE="../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.18-00.02.34:949][311]LogSavePackage: Save=146.109299ms
+[2015.04.18-00.02.34:949][311]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/Bridge5D6E8246451276391B9634AAA01AEE81.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap'
+[2015.04.18-00.02.34:979][311]LogFileHelpers: Saving map 'Bridge' took 0.314
+[2015.04.18-00.02.34:985][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Star" FILE="../../../../../../../Unreal Projects/Bridge/Content/Blueprints/Star.uasset" SILENT=true
+[2015.04.18-00.02.35:014][311]LogSavePackage: Save=18.428951ms
+[2015.04.18-00.02.35:014][311]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/Star4EDA96C44701E80270D3D58A38EF5230.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Blueprints/Star.uasset'
+[2015.04.18-00.02.36:366][375]BlueprintLog: New page: Compile Star
+[2015.04.18-00.02.36:462][375]BlueprintEditorCompileResults: Info [3545.07] Compile of Star successful! [in 96 ms]
+[2015.04.18-00.03.10:933][410]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2015.04.18-00.04.19:590][230]BlueprintLog: New page: Compile SkyBoxBlueprint
+[2015.04.18-00.04.19:692][230]BlueprintEditorCompileResults: Info [3648.31] Compile of SkyBoxBlueprint successful! [in 101 ms]
+[2015.04.18-00.04.21:770][296]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Bridge" FILE="../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.18-00.04.21:954][296]LogSavePackage: Save=145.407196ms
+[2015.04.18-00.04.21:954][296]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/Bridge3D409B6644248D8CCCEE81B40ED0BE93.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap'
+[2015.04.18-00.04.21:985][296]LogFileHelpers: Saving map 'Bridge' took 0.317
+[2015.04.18-00.04.22:007][296]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/SkyBoxBlueprint" FILE="../../../../../../../Unreal Projects/Bridge/Content/StarterContent/Blueprints/SkyBoxBlueprint.uasset" SILENT=true
+[2015.04.18-00.04.22:420][296]LogSavePackage: Save=401.916443ms
+[2015.04.18-00.04.22:421][296]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/SkyBoxBlueprintF919026E4108E3BD97FAF596A42902A8.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/StarterContent/Blueprints/SkyBoxBlueprint.uasset'
+[2015.04.18-00.04.25:636][445]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.18-00.04.25:639][445]LogPlayLevel: [PIE] Compiling Bridge before PIE...
+[2015.04.18-00.04.25:728][445]LogPlayLevel: PIE:  Blueprint regeneration took 91 ms (1 blueprints)
+[2015.04.18-00.04.25:728][445]PIE: New page: PIE session: Bridge (Apr 17, 2015, 4:04:25 PM)
+[2015.04.18-00.04.25:742][445]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012931s)
+[2015.04.18-00.04.25:742][445]LogPlayLevel: PIE: World Init took: (0.000803s)
+[2015.04.18-00.04.25:743][445]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Bridge.Bridge to /Game/Levels/UEDPIE_0_Bridge.Bridge (0.014032s)
+[2015.04.18-00.04.25:775][445]LogWorld: Game class is 'GameMode_Bridge_C'
+[2015.04.18-00.04.25:778][445]LogAIModule: Creating AISystem for world Bridge
+[2015.04.18-00.04.25:782][445]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Bridge.Bridge up for play (max tick rate 0) at 2015.04.17-20.04.25
+[2015.04.18-00.04.25:783][445]LogWorld: Bringing up level for play took: 0.004646
+[2015.04.18-00.04.25:785][445]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Bridge -0.174
+[2015.04.18-00.04.37:606][165]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004DE54E00
+[2015.04.18-00.05.04:151][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Bridge" FILE="../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.18-00.05.04:378][311]LogSavePackage: Save=161.701767ms
+[2015.04.18-00.05.04:378][311]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/Bridge7F7985224F84D9940D69AF9D975DB481.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap'
+[2015.04.18-00.05.04:408][311]LogFileHelpers: Saving map 'Bridge' took 0.358
+[2015.04.18-00.05.04:429][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/SkyBoxBlueprint" FILE="../../../../../../../Unreal Projects/Bridge/Content/StarterContent/Blueprints/SkyBoxBlueprint.uasset" SILENT=true
+[2015.04.18-00.05.04:840][311]LogSavePackage: Save=400.547699ms
+[2015.04.18-00.05.04:840][311]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/SkyBoxBlueprintB65C5CCF48EC12C15F14DEBCA94BCBC7.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/StarterContent/Blueprints/SkyBoxBlueprint.uasset'
+[2015.04.18-00.05.07:677][419]BlueprintLog: New page: Compile SkyBoxBlueprint
+[2015.04.18-00.05.07:776][419]BlueprintEditorCompileResults: Info [3696.39] Compile of SkyBoxBlueprint successful! [in 99 ms]
+[2015.04.18-00.05.10:009][492]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.18-00.05.10:012][492]LogPlayLevel: [PIE] Compiling Bridge before PIE...
+[2015.04.18-00.05.10:099][492]LogPlayLevel: PIE:  Blueprint regeneration took 90 ms (1 blueprints)
+[2015.04.18-00.05.10:099][492]PIE: New page: PIE session: Bridge (Apr 17, 2015, 4:05:10 PM)
+[2015.04.18-00.05.10:113][492]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013403s)
+[2015.04.18-00.05.10:114][492]LogPlayLevel: PIE: World Init took: (0.000930s)
+[2015.04.18-00.05.10:114][492]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Bridge.Bridge to /Game/Levels/UEDPIE_0_Bridge.Bridge (0.014525s)
+[2015.04.18-00.05.10:150][492]LogWorld: Game class is 'GameMode_Bridge_C'
+[2015.04.18-00.05.10:152][492]LogAIModule: Creating AISystem for world Bridge
+[2015.04.18-00.05.10:157][492]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Bridge.Bridge up for play (max tick rate 0) at 2015.04.17-20.05.10
+[2015.04.18-00.05.10:158][492]LogWorld: Bringing up level for play took: 0.004872
+[2015.04.18-00.05.10:160][492]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Bridge 0.204
+[2015.04.18-00.05.24:093][369]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000482E0AE0
+[2015.04.18-00.05.35:608][744]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Bridge" FILE="../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.18-00.05.35:794][744]LogSavePackage: Save=147.242050ms
+[2015.04.18-00.05.35:794][744]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/Bridge61C970594BD7B963654E4BB7700C6A90.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap'
+[2015.04.18-00.05.35:824][744]LogFileHelpers: Saving map 'Bridge' took 0.319
+[2015.04.18-00.05.35:846][744]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/SkyBoxBlueprint" FILE="../../../../../../../Unreal Projects/Bridge/Content/StarterContent/Blueprints/SkyBoxBlueprint.uasset" SILENT=true
+[2015.04.18-00.05.36:240][744]LogSavePackage: Save=383.050964ms
+[2015.04.18-00.05.36:240][744]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/SkyBoxBlueprint4B1AADE947F3E42CC33EB9A62D31E07F.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/StarterContent/Blueprints/SkyBoxBlueprint.uasset'
+[2015.04.18-00.05.37:649][782]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.18-00.05.37:654][782]LogPlayLevel: [PIE] Compiling SkyBoxBlueprint before PIE...
+[2015.04.18-00.05.37:709][782]LogPlayLevel: [PIE] Compiling Bridge before PIE...
+[2015.04.18-00.05.37:799][782]LogPlayLevel: PIE:  Blueprint regeneration took 149 ms (2 blueprints)
+[2015.04.18-00.05.37:799][782]PIE: New page: PIE session: Bridge (Apr 17, 2015, 4:05:37 PM)
+[2015.04.18-00.05.37:813][782]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013338s)
+[2015.04.18-00.05.37:814][782]LogPlayLevel: PIE: World Init took: (0.001176s)
+[2015.04.18-00.05.37:814][782]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Bridge.Bridge to /Game/Levels/UEDPIE_0_Bridge.Bridge (0.014682s)
+[2015.04.18-00.05.37:847][782]LogWorld: Game class is 'GameMode_Bridge_C'
+[2015.04.18-00.05.37:850][782]LogAIModule: Creating AISystem for world Bridge
+[2015.04.18-00.05.37:854][782]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Bridge.Bridge up for play (max tick rate 0) at 2015.04.17-20.05.37
+[2015.04.18-00.05.37:855][782]LogWorld: Bringing up level for play took: 0.004588
+[2015.04.18-00.05.37:857][782]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Bridge -0.096
+[2015.04.18-00.05.44:747][208]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000042681300
+[2015.04.18-00.07.00:222][401]BlueprintLog: New page: Compile SkyBoxBlueprint
+[2015.04.18-00.07.00:321][401]BlueprintEditorCompileResults: Info [3808.95] Compile of SkyBoxBlueprint successful! [in 98 ms]
+[2015.04.18-00.07.01:955][473]LogEditorViewport: Clicking on Actor (LMB): SkyBoxBlueprint_C (SkyBoxBlueprint)
+[2015.04.18-00.07.02:767][507]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Bridge" FILE="../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.18-00.07.02:954][507]LogSavePackage: Save=147.510178ms
+[2015.04.18-00.07.02:954][507]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/BridgeBC5139EE404D4370C303158F8983ACCA.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap'
+[2015.04.18-00.07.02:984][507]LogFileHelpers: Saving map 'Bridge' took 0.318
+[2015.04.18-00.07.03:022][507]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/SkyBoxBlueprint" FILE="../../../../../../../Unreal Projects/Bridge/Content/StarterContent/Blueprints/SkyBoxBlueprint.uasset" SILENT=true
+[2015.04.18-00.07.03:415][507]LogSavePackage: Save=382.099884ms
+[2015.04.18-00.07.03:415][507]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/SkyBoxBlueprint1F5B5CE644DEEB52E60A3CBF670D77B6.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/StarterContent/Blueprints/SkyBoxBlueprint.uasset'
+[2015.04.18-00.07.04:275][528]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.18-00.07.04:278][528]LogPlayLevel: [PIE] Compiling Bridge before PIE...
+[2015.04.18-00.07.04:367][528]LogPlayLevel: PIE:  Blueprint regeneration took 92 ms (1 blueprints)
+[2015.04.18-00.07.04:367][528]PIE: New page: PIE session: Bridge (Apr 17, 2015, 4:07:04 PM)
+[2015.04.18-00.07.04:382][528]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014553s)
+[2015.04.18-00.07.04:383][528]LogPlayLevel: PIE: World Init took: (0.000905s)
+[2015.04.18-00.07.04:384][528]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Bridge.Bridge to /Game/Levels/UEDPIE_0_Bridge.Bridge (0.015678s)
+[2015.04.18-00.07.04:419][528]LogWorld: Game class is 'GameMode_Bridge_C'
+[2015.04.18-00.07.04:422][528]LogAIModule: Creating AISystem for world Bridge
+[2015.04.18-00.07.04:426][528]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Bridge.Bridge up for play (max tick rate 0) at 2015.04.17-20.07.04
+[2015.04.18-00.07.04:427][528]LogWorld: Bringing up level for play took: 0.004512
+[2015.04.18-00.07.04:429][528]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Bridge 0.482
+[2015.04.18-00.07.44:588][ 75]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000042680180
+[2015.04.18-00.08.23:647][276]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Bridge" FILE="../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.18-00.08.23:831][276]LogSavePackage: Save=145.702118ms
+[2015.04.18-00.08.23:831][276]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/Bridge5C12066A4F3C43E034CFCBA91D28CAFC.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap'
+[2015.04.18-00.08.23:861][276]LogFileHelpers: Saving map 'Bridge' took 0.316
+[2015.04.18-00.08.26:506][353]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.18-00.08.26:510][353]LogPlayLevel: [PIE] Compiling Bridge before PIE...
+[2015.04.18-00.08.26:599][353]LogPlayLevel: PIE:  Blueprint regeneration took 92 ms (1 blueprints)
+[2015.04.18-00.08.26:599][353]PIE: New page: PIE session: Bridge (Apr 17, 2015, 4:08:26 PM)
+[2015.04.18-00.08.26:637][353]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014068s)
+[2015.04.18-00.08.26:638][353]LogPlayLevel: PIE: World Init took: (0.000905s)
+[2015.04.18-00.08.26:638][353]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Bridge.Bridge to /Game/Levels/UEDPIE_0_Bridge.Bridge (0.015163s)
+[2015.04.18-00.08.26:672][353]LogWorld: Game class is 'GameMode_Bridge_C'
+[2015.04.18-00.08.26:675][353]LogAIModule: Creating AISystem for world Bridge
+[2015.04.18-00.08.26:679][353]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Bridge.Bridge up for play (max tick rate 0) at 2015.04.17-20.08.26
+[2015.04.18-00.08.26:680][353]LogWorld: Bringing up level for play took: 0.004516
+[2015.04.18-00.08.26:682][353]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Bridge 0.739
+[2015.04.18-00.08.33:003][745]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CE1DB20
+[2015.04.18-00.09.32:086][ 52]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004A593E20
+[2015.04.18-00.10.18:069][279]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.18-00.10.18:069][279]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Levels'
+[2015.04.18-00.18.30:146][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Bridge" FILE="../../../../../../../Unreal Projects/Bridge/Saved/Autosaves/Game/Levels/Bridge_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.04.18-00.18.30:312][172]LogSavePackage: Save=148.984558ms
+[2015.04.18-00.18.30:312][172]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/Bridge_Auto4F5663BB240D62C05471EB59C3B6808DB.tmp' to '../../../../../../../Unreal Projects/Bridge/Saved/Autosaves/Game/Levels/Bridge_Auto4.umap'
+[2015.04.18-00.18.30:322][172]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Bridge' took 0.284
+[2015.04.18-00.18.30:322][172]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.284
+[2015.04.18-00.18.30:365][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Levels/SkyBox_Child] ([1] browsable assets)...
+[2015.04.18-00.18.30:385][172]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Levels/SkyBox_Child.SkyBox_Child]
+[2015.04.18-00.18.30:385][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Levels/SkyBox_Child]
+[2015.04.18-00.18.30:388][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/SkyBox_Child" FILE="../../../../../../../Unreal Projects/Bridge/Saved/Autosaves/Game/Levels/SkyBox_Child_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2015.04.18-00.18.30:861][172]LogSavePackage: Save=463.346954ms
+[2015.04.18-00.18.30:862][172]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/SkyBox_Child_Auto4AB7DE2F3465B0E08065ADFB15AF99F42.tmp' to '../../../../../../../Unreal Projects/Bridge/Saved/Autosaves/Game/Levels/SkyBox_Child_Auto4.uasset'
+[2015.04.18-00.18.30:871][172]LogFileHelpers: Auto-saving content packages took 0.549
+[2015.04.18-00.21.00:483][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Bridge" FILE="../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.18-00.21.00:681][467]LogSavePackage: Save=150.058380ms
+[2015.04.18-00.21.00:681][467]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/Bridge150B7B0149A97EE503A906BC7C44EDA1.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Levels/Bridge.umap'
+[2015.04.18-00.21.00:711][467]LogFileHelpers: Saving map 'Bridge' took 0.329
+[2015.04.18-00.21.00:734][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/SkyBox_Child" FILE="../../../../../../../Unreal Projects/Bridge/Content/Levels/SkyBox_Child.uasset" SILENT=true
+[2015.04.18-00.21.01:130][467]LogSavePackage: Save=395.074768ms
+[2015.04.18-00.21.01:130][467]LogSavePackage: Moving '../../../../../../../Unreal Projects/Bridge/Saved/SkyBox_Child8143C0094C38CDE337C6D9A0A25BB0BC.tmp' to '../../../../../../../Unreal Projects/Bridge/Content/Levels/SkyBox_Child.uasset'
+[2015.04.18-00.21.10:364][182]Cmd: QUIT_EDITOR
+[2015.04.18-00.21.11:120][182]LogExit: Preparing to exit.
+[2015.04.18-00.21.12:466][182]LogExit: Editor shut down
+[2015.04.18-00.21.12:467][182]LogExit: Transaction tracking system shut down
+[2015.04.18-00.21.12:506][182]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013823EC0
+[2015.04.18-00.21.12:515][182]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001DB43F60
+[2015.04.18-00.21.12:515][182]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001DB41F80
+[2015.04.18-00.21.12:515][182]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001DCAC860
+[2015.04.18-00.21.12:515][182]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000010E27F60
+[2015.04.18-00.21.12:517][182]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000267A3600
+[2015.04.18-00.21.14:012][182]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C646660
+[2015.04.18-00.21.14:012][182]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002D915BC0
+[2015.04.18-00.21.14:012][182]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000040CD1EE0
+[2015.04.18-00.21.14:012][182]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003C3704A0
+[2015.04.18-00.21.14:012][182]LogExit: Object subsystem successfully closed.
+[2015.04.18-00.21.16:612][182]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (178)
+[2015.04.18-00.21.16:612][182]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.04.18-00.21.16:619][182]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.04.18-00.21.16:619][182]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.04.18-00.21.16:619][182]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.04.18-00.21.16:619][182]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.04.18-00.21.16:630][182]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.04.18-00.21.16:656][182]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.04.18-00.21.16:656][182]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.04.18-00.21.16:679][182]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.04.18-00.21.16:680][182]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.04.18-00.21.16:680][182]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.04.18-00.21.16:688][182]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.04.18-00.21.16:688][182]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.04.18-00.21.16:688][182]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.04.18-00.21.16:688][182]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.04.18-00.21.16:705][182]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.04.18-00.21.16:705][182]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.04.18-00.21.16:719][182]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.04.18-00.21.16:729][182]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.04.18-00.21.16:830][182]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.04.18-00.21.16:846][182]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.04.18-00.21.16:878][182]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.04.18-00.21.16:894][182]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.04.18-00.21.16:894][182]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.04.18-00.21.16:907][182]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.04.18-00.21.16:908][182]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.04.18-00.21.16:908][182]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.04.18-00.21.16:908][182]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.04.18-00.21.16:908][182]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.04.18-00.21.16:908][182]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.04.18-00.21.16:909][182]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.04.18-00.21.16:909][182]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.04.18-00.21.17:702][182]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.04.18-00.21.17:702][182]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.04.18-00.21.17:702][182]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.04.18-00.21.17:724][182]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.04.18-00.21.17:724][182]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.04.18-00.21.17:743][182]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.04.18-00.21.17:743][182]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.04.18-00.21.17:743][182]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.04.18-00.21.17:756][182]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.04.18-00.21.17:768][182]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.04.18-00.21.17:785][182]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.04.18-00.21.17:785][182]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.04.18-00.21.17:795][182]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.04.18-00.21.17:826][182]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.04.18-00.21.17:837][182]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.04.18-00.21.17:850][182]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.04.18-00.21.17:850][182]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.04.18-00.21.17:850][182]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.04.18-00.21.17:862][182]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.04.18-00.21.18:156][182]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.04.18-00.21.18:179][182]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.04.18-00.21.18:208][182]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.04.18-00.21.18:231][182]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.04.18-00.21.18:231][182]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.04.18-00.21.18:231][182]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.04.18-00.21.18:231][182]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.04.18-00.21.18:231][182]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.04.18-00.21.18:248][182]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.04.18-00.21.18:290][182]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.04.18-00.21.18:304][182]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.04.18-00.21.18:320][182]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.04.18-00.21.18:339][182]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.04.18-00.21.18:339][182]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.04.18-00.21.18:349][182]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.04.18-00.21.18:350][182]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.04.18-00.21.18:350][182]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.04.18-00.21.18:350][182]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.04.18-00.21.18:350][182]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.04.18-00.21.18:350][182]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.04.18-00.21.18:364][182]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.04.18-00.21.18:391][182]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.04.18-00.21.18:408][182]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.04.18-00.21.18:418][182]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.04.18-00.21.18:418][182]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.04.18-00.21.18:418][182]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.04.18-00.21.18:418][182]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.04.18-00.21.18:446][182]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.04.18-00.21.18:464][182]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.04.18-00.21.18:464][182]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.04.18-00.21.18:484][182]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.04.18-00.21.18:484][182]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.04.18-00.21.18:527][182]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.04.18-00.21.18:539][182]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.04.18-00.21.18:566][182]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.04.18-00.21.18:578][182]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.04.18-00.21.18:585][182]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.04.18-00.21.18:585][182]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.04.18-00.21.18:597][182]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.04.18-00.21.18:618][182]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.04.18-00.21.18:637][182]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.04.18-00.21.18:661][182]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.04.18-00.21.18:661][182]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.04.18-00.21.18:661][182]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.04.18-00.21.18:661][182]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.04.18-00.21.18:668][182]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.04.18-00.21.18:689][182]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.04.18-00.21.18:695][182]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.04.18-00.21.18:806][182]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.04.18-00.21.18:806][182]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.04.18-00.21.18:825][182]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.04.18-00.21.18:825][182]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.04.18-00.21.18:826][182]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.04.18-00.21.18:826][182]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.04.18-00.21.18:864][182]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.04.18-00.21.18:895][182]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.04.18-00.21.18:902][182]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.04.18-00.21.18:912][182]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.04.18-00.21.18:976][182]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.04.18-00.21.18:976][182]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.04.18-00.21.18:987][182]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.04.18-00.21.19:026][182]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.04.18-00.21.19:048][182]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.04.18-00.21.19:059][182]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.04.18-00.21.19:059][182]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.04.18-00.21.19:123][182]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.04.18-00.21.19:123][182]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.04.18-00.21.19:123][182]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.04.18-00.21.19:124][182]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.04.18-00.21.19:124][182]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.04.18-00.21.19:124][182]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.04.18-00.21.19:124][182]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.04.18-00.21.19:124][182]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.04.18-00.21.19:124][182]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.04.18-00.21.19:140][182]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.04.18-00.21.19:199][182]LogDerivedDataCache: Shutdown
+[2015.04.18-00.21.19:199][182]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.04.18-00.21.19:208][182]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.04.18-00.21.19:223][182]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.04.18-00.21.19:236][182]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.04.18-00.21.19:236][182]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.04.18-00.21.19:236][182]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.04.18-00.21.19:236][182]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.04.18-00.21.19:236][182]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.04.18-00.21.19:236][182]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.04.18-00.21.19:236][182]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.04.18-00.21.19:255][182]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.04.18-00.21.19:255][182]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.04.18-00.21.19:256][182]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.04.18-00.21.19:256][182]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.04.18-00.21.19:256][182]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.04.18-00.21.19:257][182]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.04.18-00.21.19:257][182]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.04.18-00.21.19:257][182]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.04.18-00.21.19:269][182]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.04.18-00.21.19:270][182]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.04.18-00.21.19:270][182]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.04.18-00.21.19:270][182]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.04.18-00.21.19:270][182]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.04.18-00.21.19:270][182]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.04.18-00.21.19:271][182]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.04.18-00.21.19:271][182]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.04.18-00.21.19:271][182]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.04.18-00.21.19:271][182]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.04.18-00.21.19:271][182]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.04.18-00.21.19:272][182]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.04.18-00.21.19:272][182]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.04.18-00.21.19:282][182]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.04.18-00.21.19:282][182]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.04.18-00.21.19:282][182]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.04.18-00.21.19:282][182]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.04.18-00.21.19:295][182]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.04.18-00.21.19:296][182]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.04.18-00.21.19:296][182]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.04.18-00.21.19:296][182]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.04.18-00.21.19:296][182]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.04.18-00.21.19:385][182]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.04.18-00.21.19:393][182]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.04.18-00.21.19:393][182]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.04.18-00.21.19:393][182]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.04.18-00.21.19:394][182]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.04.18-00.21.19:427][182]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.04.18-00.21.19:438][182]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.04.18-00.21.19:456][182]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.04.18-00.21.19:456][182]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.04.18-00.21.19:464][182]LogExit: Exiting.
+[2015.04.18-00.21.19:519][182]Log file closed, 04/17/15 20:21:19
+>>>>>>> origin/master
